@@ -1,0 +1,29 @@
+Algo checkpoint5
+VAR length,word_count,current_character :=INTEGER 
+
+
+length= 0
+word_count := 0
+vowel_count := 0
+current_character := Read(Character) 
+
+
+
+While current_character ≠ '.' do
+    sentence_length :=sentence_length + 1
+
+
+    If current_character := ' ' then
+        word_count := word_count + 1 
+
+
+    If current_character is a vowel (a, e, i, o, u, A, E, I, O, U) then
+        vowel_count := vowel_count + 1
+
+
+
+
+End Algo
+
+
+
